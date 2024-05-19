@@ -52,7 +52,7 @@ function Experience() {
     <div className='bg-gray-200'>{
         experiencesData.map((item, index)=>(
             <React.Fragment key={index}>
-                <h4>{item.icon}</h4>
+                <h4 className='flex justify-center text-4xl'>{item.icon}</h4>
                 <p className='italic'>{item.date}</p>
                 <h3 className='font-bold text-2xl text-gray-500'>{item.title}</h3>
                 <p>{item.location}</p>
